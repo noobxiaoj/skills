@@ -1,0 +1,4 @@
+interface:
+  display_name: "文档化追问"
+  short_description: "追问方案并同步沉淀领域术语、架构决策和项目上下文信息"
+  default_prompt: "使用 $grill-with-docs 帮我追问这个方案并更新相关文档。"

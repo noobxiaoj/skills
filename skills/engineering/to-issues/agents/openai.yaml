@@ -1,0 +1,4 @@
+interface:
+  display_name: "拆分 Issue"
+  short_description: "把计划或 PRD 拆成可独立领取的垂直切片实现任务"
+  default_prompt: "使用 $to-issues 帮我把这个计划拆成可执行的 issue。"

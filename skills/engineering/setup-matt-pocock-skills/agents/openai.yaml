@@ -1,0 +1,4 @@
+interface:
+  display_name: "配置 Agent Skills"
+  short_description: "配置 issue 跟踪、分诊标签和领域文档布局供 skills 使用"
+  default_prompt: "使用 $setup-matt-pocock-skills 帮我配置这个仓库的 agent skills。"

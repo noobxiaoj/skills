@@ -1,0 +1,4 @@
+interface:
+  display_name: "极简模式"
+  short_description: "用更少 token 保留技术准确性并压缩表达适合快速交流"
+  default_prompt: "使用 $caveman 用极简模式回答我。"

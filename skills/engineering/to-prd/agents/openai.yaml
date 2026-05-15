@@ -1,0 +1,4 @@
+interface:
+  display_name: "生成 PRD"
+  short_description: "把当前讨论整理成可发布的产品需求文档并沉淀实现决策"
+  default_prompt: "使用 $to-prd 帮我把当前讨论整理成 PRD。"

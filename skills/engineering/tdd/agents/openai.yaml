@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试驱动开发"
+  short_description: "用红绿重构循环测试先行地实现功能、修 bug 并验证行为"
+  default_prompt: "使用 $tdd 帮我按测试驱动开发方式实现这个需求。"

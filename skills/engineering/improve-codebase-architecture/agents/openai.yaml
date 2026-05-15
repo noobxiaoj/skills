@@ -1,0 +1,4 @@
+interface:
+  display_name: "架构改进"
+  short_description: "发现模块深化机会并改进代码库可测试性和 AI 可导航性"
+  default_prompt: "使用 $improve-codebase-architecture 帮我分析这个代码库的架构改进机会。"

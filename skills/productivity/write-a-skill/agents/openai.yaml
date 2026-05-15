@@ -1,0 +1,4 @@
+interface:
+  display_name: "编写 Skill"
+  short_description: "创建或更新结构清晰、可复用的 agent skill 与说明"
+  default_prompt: "使用 $write-a-skill 帮我设计一个新的 skill。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "问题诊断"
+  short_description: "系统化复现、定位并修复复杂 bug 与性能回退问题"
+  default_prompt: "使用 $diagnose 帮我系统化诊断这个问题。"

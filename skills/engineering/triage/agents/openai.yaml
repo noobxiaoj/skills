@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue 分诊"
+  short_description: "按状态机分诊 issue 并准备可交接的 agent 任务"
+  default_prompt: "使用 $triage 帮我分诊这些 issue。"
