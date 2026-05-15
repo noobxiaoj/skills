@@ -1,13 +1,15 @@
 ---
 name: handoff
-description: Compact the current conversation into a handoff document for another agent to pick up.
-argument-hint: "What will the next session be used for?"
+description: 把当前对话压缩成 handoff document（交接文档），方便另一个 agent 继续处理。Use when 用户要交接当前工作、压缩上下文、保存进度、准备新会话或让下一个 agent 接手。
+argument-hint: "下一个会话要用来做什么？"
 ---
 
-Write a handoff document summarising the current conversation so a fresh agent can continue the work. Save it to a path produced by `mktemp -t handoff-XXXXXX.md` (read the file before you write to it).
+默认使用简体中文。handoff document（交接文档）用中文编写；代码、命令、路径、issue 编号、PR 链接、错误日志保持原文。
 
-Suggest the skills to be used, if any, by the next session.
+编写一份 handoff document，总结当前对话，让新的 agent 能继续工作。保存到 `mktemp -t handoff-XXXXXX.md` 生成的路径；写入前先读取该文件。
 
-Do not duplicate content already captured in other artifacts (PRDs, plans, ADRs, issues, commits, diffs). Reference them by path or URL instead.
+如果下一个会话适合使用某些 skills，明确建议。
 
-If the user passed arguments, treat them as a description of what the next session will focus on and tailor the doc accordingly.
+不要重复已经记录在其他工件中的内容，例如 PRD、计划、ADR、issue、commit、diff。改为通过路径或 URL 引用它们。
+
+如果用户传入参数，把它视为下一个会话的关注点描述，并据此定制文档。
