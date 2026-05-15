@@ -1,4 +1,4 @@
 interface:
   display_name: "追问我"
-  short_description: "持续追问计划或设计直到关键决策变清楚并给出推荐建议"
-  default_prompt: "使用 $grill-me 帮我追问并压力测试这个方案。"
+  short_description: "用卡片式追问压力测试计划直到关键决策变清楚并可回答"
+  default_prompt: "使用 $grill-me 用卡片式追问帮我压力测试这个方案。"
